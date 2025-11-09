@@ -22,7 +22,8 @@ body{
 }
 
 main{
-    height: 97vw;
+    width: 97vw;
+    height: 97vh;
     position: relative;
 }
 
@@ -31,7 +32,8 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: url('../pacote-d013/imagens/frame-iphone.png') right center fixed;
+    background: url('../pacote-d013/imagens/frame-iphone.png') right center fixed ;
+    background-size: cover;
  
     height: 627px;
     width: 311px;
@@ -45,4 +47,21 @@ main{
     height: 472px;
     width: 270px;
 
+}
+
+#redes-sociais{
+    text-align: right;
+}
+
+#redes-sociais img{
+    width: 50px;
+    margin: 7px;
+    border-radius: 50px;
+}
+
+#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.404);
+    padding: 0%;
+    transform: translate(-3px, -3px);
+    transition: transform 0.5s;
 }
